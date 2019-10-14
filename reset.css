@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SFUIText-Regular";
+  font-size: 18px;
+  line-height: 44px;
+  font-weight: 400;
+  color: #2f2f2f;
+  width: 100%;
+
+}
+
+.secondary-font {
+  font-family: "GFS Didot", serif;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: 30px;
+  height: 44px;
+}
+
+.primary-color {
+  background-color: #0052fb;
+  color: white;
+}
+
+.secondary-color {
+  color: #0052fb;
+}
+
+a:focus{
+    outline:0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 30px;
+  line-height: 70px;
+  color: #ffffff;
+  font-family: "S FU IText";
+}
+
+@media only screen and (max-width: 420px) {
+  h1{
+    font-size: 25px;
+    line-height: 45px;
+  }
+
+  h2{
+    font-size: 15px;
+  }
+}
+
+  

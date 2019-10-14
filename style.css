@@ -1,0 +1,459 @@
+button {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  align-items: center;
+  height: 26px;
+  width: 26px;
+  margin-right: 25px;
+}
+
+.header {
+  height: 900px;
+  width: 100%;
+  background-image: url("https://drive.google.com/uc?id=1BUoAd9PLUURQHm1VUZx_XjaI_7iXaRjO");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > .content {
+  margin: 0px 214px;
+}
+d
+.container {
+  position: absolute;
+  margin-top: 25px;
+  width: 100%;
+  padding: 0;
+}
+
+.basement{
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  height: 43.70px;
+  align-items: center;
+}
+
+.basement >*{
+  line-height: 43.70px;
+}
+
+.basement img {
+  margin-top: 0;
+}
+
+.basement button {
+  float: left;
+  height: 30px;
+}
+
+.icons {
+  text-align: right;
+}
+
+.icons a {
+  padding: 0px 14px;
+}
+
+.title {
+  padding: 0px 11.84%;
+  padding-top: 23.68%;
+}
+
+.title-content {
+  height: auto;
+  color: #ffffff;
+  text-align: center;
+}
+
+.scroll-button {
+  padding: 0px 11.84%;
+  padding-top: 5.61%;
+}
+
+.scroll-button button {
+  width: 176px;
+  height: 61px;
+  border: 1px solid #ffffff;
+  display: block;
+  margin: 0 auto;
+}
+
+.scroll-button button p.secondary-font {
+  font-size: 20px;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+
+nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 26px;
+  padding-left: 0px;
+  transition: 0.5s;
+}
+
+nav p {
+  font-size: 25px;
+  line-height: 60px;
+  font-family: "Charter Roman";
+}
+
+nav ul {
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+nav ul li {
+  padding: 10px 0;
+}
+
+nav ul li a {
+  color: #ffffff;
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li a:before {
+  content: " ";
+  width: 2px;
+  height: 57px;
+  background-color: #ffffff;
+  margin-right: 5px;
+  position: absolute;
+  left: 0px;
+  display: none;
+}
+
+nav ul li a:hover:before {
+  display: block;
+}
+
+.about-us {
+  height: 710px;
+  display: flex;
+  justify-content: center;
+}
+.about-us .container,
+.our-team .container {
+  margin: 0;
+  text-align: center;
+}
+
+.col.first {
+  padding-top: 260px;
+}
+
+#aboutUsp {
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  display: block;
+  width: 62.28%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.our-team {
+  height: 1285px;
+  display: flex;
+  justify-content: center;
+}
+
+.our-team .col.first {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.what-doing {
+  height: 769px;
+
+  display: flex;
+}
+
+.what-doing-img {
+  height: inherit;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  background-image: url("https://drive.google.com/uc?id=1xHl_SuXhIbUPz8e6Lgm5tVLvUE1H2EQs");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.what-doing .container {
+  margin: 0;
+  height: inherit;
+  width: 50%;
+}
+
+.col.content {
+  padding: 0 26.5%;
+  padding-top: 31.85%;
+}
+
+.col.content p.secondary-font {
+  line-height: 60px;
+}
+
+.col.content h2 {
+  font-weight: bold;
+  height: 44px;
+  margin:0;
+  margin-bottom: 45px;
+  margin-top: 40px;
+  
+}
+
+.col.content p.normal {
+  width: 108.27%;
+  height: auto;
+  display: block;
+}
+
+.row.team {
+  padding-top: 80px;
+}
+.row.team .col {
+  width: 369px;
+  height: 291px;
+  margin: 0 14px;
+  overflow: hidden;
+
+}
+
+.col.team1 {
+  background-image: url("https://drive.google.com/uc?id=14StYsFn7tguy8m4No9fbf1gyDqxzID_c");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.col.team2 {
+  background-image: url("https://drive.google.com/uc?id=1g7Jvmd7RcTuYkwfOF6NoTENQTMWZWCFH");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.team3 {
+  background-image: url("https://drive.google.com/uc?id=1k5gJlGwBMZZi77S102sfPe9RABznr9d1");
+  background-position: 25% 75% 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.team-name-style {
+  font-size: 18px;
+  line-height: 60px;
+  color: #494d51;
+  font-family: "Didot";
+  font-weight: bold;
+  text-align: center;
+}
+
+.team-role-style {
+  font-size: 15px;
+  line-height: 0px;
+  color: #494d51;
+  text-align: center;
+}
+
+.row.icons {
+  padding-top: 70px;
+}
+
+.icon-style {
+  text-align: center;
+  line-height: 44px;
+}
+
+.icon-style img {
+  display: block;
+  margin: 0 auto;
+}
+
+.contact {
+  height: 900px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img1 {
+  width: 41.43%;
+  height: 42.18vw;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.11);
+  background-color: #00aeef;
+  position: absolute;
+  left: 11.5%;
+  top: -3.43vw;
+}
+
+.img2 {
+  width: 15.06%;
+  height: 19.93vw;
+  object-fit: fill;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.28);
+  background-color: #00aeef;
+  background-image: url("https://drive.google.com/uc?id=1aWlpj6aLLfe_MxNE0rCRYXh3OxAQp6CZ");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: 90% 10%;
+  position: absolute;
+  left: 42%;
+  top: 25.93vw;
+}
+
+.img3 {
+  width: 16.5%;
+  height: 16.12vw;
+  object-fit: fill;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.03);
+  background-color: #00aeef;
+  background-image: url("https://drive.google.com/uc?id=11-Mct26Rtbo34sYFzTZNPIpQSIBAHoH7");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: absolute;
+  left: 25.5%;
+  top: 35vw;
+}
+
+.contact .conctact-info {
+  width: 43%;
+  padding-left: 11%;
+  padding-top: 260px;
+}
+
+.conctact-info .row {
+  width: 100%;
+}
+
+.boxrect {
+  width: 31px;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  height: 111px;
+}
+
+.footer .container{
+  position: static;
+  align-items: center;
+}
+
+p.cpright {
+  font-size: 13px;
+  line-height: 111px;
+  color: #93979b;
+}
+
+@media only screen and (max-width: 360px) {
+
+  .basement > img{
+    width: 110px;
+  }
+
+  .col.content p.secondary-font, p.normal {
+    line-height: 45px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .team3{
+    background-position: 25% 0px;  
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .team-name-style{
+    line-height: 30px;
+    
+  }
+  .team-role-style{
+    line-height: 20px;
+  }
+  
+  .contact .conctact-info{
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 260px;
+  }
+
+  .our-team .icons img.google {
+
+    width: 16.87vw;
+    height: 5.87vw;
+  }
+
+  .row{
+    width: 100%;
+  }
+
+  .row{
+    margin: 0 ;
+
+  }
+
+  .our-team .icons img.slack{
+    width: 16.37vw;
+    height: 6vw;
+  }
+  .our-team .icons img.evernote{
+    width: 24.78vw;
+    height: 6.24vw;
+  }
+
+  .what-doing-img{
+    display: none;
+  }
+
+  .what-doing .container{
+    width:100%;
+  }
+
+  .icons a{
+    padding: 0 5px;
+  }
+
+}
+
+@media only screen and (max-width: 360px) {
+  .col.cpright{
+    padding-right: 0;
+  }
+  
+}
+
